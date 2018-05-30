@@ -16,7 +16,8 @@ def main():
         counter = counter + 1
         i = datetime.datetime.now()
         print(str(i) + " " + str(counter))
-        time.sleep(60)
+        #查询时间
+        time.sleep(86400)
     print("End")
 
 
