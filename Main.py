@@ -2,6 +2,7 @@ import time
 import datetime
 
 import DingMsgSend
+import  decimal
 import ConstSettings
 import Common.Const
 CONST = Common.Const

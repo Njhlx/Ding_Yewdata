@@ -39,7 +39,7 @@ cur.execute("update tb set score=95 where id=7")
 conn.commit() #修改数据后提交事务
 #再查一次
 cur.execute(sSQL)
-#5.一次取一条数据,cur.rowcount为-1
+#一次取一条数据,cur.rowcount为-1
 r=cur.fetchone()
 i=1
 print('\n')
