@@ -36,7 +36,7 @@ def sub_function():
                                              sSQL)
                 # print(row_count)
 
-            #增加判断，待接收数据包>10才提示
+            #增加判断，待接收数据包大于等于10才提示
             if row_count >= 10 :
                 count = row_count
                 msg = ''
